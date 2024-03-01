@@ -53,6 +53,7 @@ body {
     border-radius: 28px;
     background: var(--cyan);
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .btn:active {
@@ -97,10 +98,14 @@ body {
 
 .txt {
     color: var(--violet);
+    cursor: pointer;
     font-size: 15px;
     font-weight: 700;
+    transition: 0.5s;
 }
-
+.txt:active{
+    color: var(--dark-blue);
+}
 .header-login,
 .header-link {
     padding-bottom: 15px;
@@ -386,9 +391,14 @@ body {
 
 .story-link {
     color: var(--gray);
+    cursor: pointer;
     font-size: 15px;
     font-weight: 500;
     letter-spacing: -0.234px;
+    transition: 0.5s;
+}
+.story-link:active{
+    color:var(--cyan);
 }
 
 .footer-links {
