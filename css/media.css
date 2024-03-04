@@ -291,7 +291,11 @@
     }
 
 }
-
+@media (min-width:768) {
+    .header-liner {
+        width: 100%;
+    }
+}
 /* Mobile */
 @media (max-width: 768px) {
     .container {

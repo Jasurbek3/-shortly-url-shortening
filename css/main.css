@@ -106,9 +106,7 @@ body {
     font-weight: 700;
     transition: 0.5s;
 }
-.header-liner {
-    width: 100% unset;
-}
+
 .txt:active {
     color: var(--dark-blue);
 }
